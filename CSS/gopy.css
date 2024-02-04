@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: Arial, sans-serif;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #192433;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#header img.img1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#header h2 {
+    color: #FFF;
+    margin-top: 10px;
+}
+
+form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu {
+    background-color: #151D28;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+
+#contend33 {
+    width: 80%;
+    margin: 20px auto; /* Thêm margin auto để căn giữa theo chiều ngang */
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contend33 h3 {
+    color: #333;
+}
+
+#contend33 hr {
+    border: 1px solid #333;
+    margin-top: 10px;
+}
+
+#gopy table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#gopy th, #gopy td {
+    padding: 10px;
+    border-bottom: 1px solid #CCC;
+}
+
+#email,
+#ndd {
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #CCC;
+}
+
+#gui {
+    padding: 10px;
+    background-color: #192433;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+}
+
+#gui:hover {
+    background-color: #151D28;
+}
